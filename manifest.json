@@ -1,0 +1,12 @@
+{
+    "name": "ZoomLock",
+    "version": "0.0.1",
+    "description": "Lock the Zoom in all tabs",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {},
+    "permissions": ["tabs", "storage"]
+}
